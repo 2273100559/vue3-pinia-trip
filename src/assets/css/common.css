@@ -1,0 +1,18 @@
+:root {
+  --primary-color: #ff9854;
+  /* --van-tabbar-item-icon-size: 30px; 更改默认样式的 */
+  --image-linear: linear-gradient(90deg,#fa8c1d,#fcaf3f);
+  /* 修改search的变量 */
+  --van-search-left-icon-color:var(--primary-color)!important
+}
+body {
+  font-size: 14px;
+}
+
+.top-page-hide {
+  position: relative;
+  height: 100vh;
+  overflow-y: auto;
+  background-color: #fff;
+  z-index: 9;
+}
